@@ -17,7 +17,7 @@ export default function SearchBar({setSearchText}) {
         borderColor: Colors.VERDE,
         padding:7
       }}>
-        <AntDesign name="search1" size={17} color="#45703B" style={{marginLeft:1}}/>
+        <AntDesign name="search1" size={17} color="#45703B" style={{marginLeft:8}}/>
         <TextInput 
           placeholder='Buscar Clinícas'
           onChangeText={(value)=> setSearchInput(value)}
